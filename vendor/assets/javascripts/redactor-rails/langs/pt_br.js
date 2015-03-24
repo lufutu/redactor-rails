@@ -50,7 +50,7 @@ $.Redactor.opts.langs['pt_br'] = {
 		text: 'Texto',
 		mailto: 'Email',
 		web: 'URL',
-		video_html_code: 'Código de Incorporação de Vídeo',
+		video_html_code: 'Cole aqui o link do vídeo no youtube ou vimeo',
 		file: 'Inserir Arquivo...',
 		upload: 'Upload',
 		download: 'Download',
