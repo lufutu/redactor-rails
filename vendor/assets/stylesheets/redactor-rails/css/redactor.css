@@ -91,7 +91,7 @@ body .redactor-box-fullscreen {
   outline: none;
   white-space: normal;
   border: 1px solid #eee;
-  font-family: proxima-nova, sans-serif !important;
+  font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif !important;
   font-size: 14px;
   line-height: 1.6em;
 }
@@ -794,10 +794,12 @@ body .redactor-box-fullscreen {
   cursor: text;
 }
 .redactor-editor div,
+.redactor-editor p,
 .redactor-editor ul,
 .redactor-editor ol,
 .redactor-editor table,
 .redactor-editor dl,
+.redactor-editor blockquote,
 .redactor-editor pre {
   font-size: 14px;
   line-height: 1.6em;
@@ -818,11 +820,13 @@ body .redactor-box-fullscreen {
   height: auto;
 }
 .redactor-editor div,
+.redactor-editor p,
 .redactor-editor ul,
 .redactor-editor ol,
 .redactor-editor table,
 .redactor-editor dl,
 .redactor-editor figure,
+.redactor-editor blockquote,
 .redactor-editor pre {
   margin: 0;
   margin-bottom: 15px;
@@ -834,6 +838,17 @@ body .redactor-box-fullscreen {
 .redactor-editor object,
 .redactor-editor hr {
   margin-bottom: 15px;
+}
+.redactor-editor blockquote {
+  margin-left: 1.6em !important;
+  padding: 0;
+  text-align: left;
+  color: #777;
+  font-style: italic;
+}
+.redactor-editor blockquote:before,
+.redactor-editor blockquote:after {
+  content: '';
 }
 .redactor-editor ul,
 .redactor-editor ol {
